@@ -5,10 +5,11 @@ export const Counter =() =>{
     console.log("Counter Component Rendered");
     const handleClick = () =>{
             setCount(count + 1)
-    }
+    };
+
   return (
     <div>
       <button onClick={handleClick}>Count: {count}</button>
     </div>
   )
-}
+};
