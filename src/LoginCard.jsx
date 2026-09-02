@@ -3,10 +3,11 @@ import { useState } from "react"
 export const LoginCard =() =>{
     const [isLoggedIn, setIsLoggedIn] = useState(false);
 
-    const [message,setMessage] = useState();
+    const [message,setMessage] = useState("");
     const handleLogin =() =>{
         setIsLoggedIn(!isLoggedIn)
     }
+
     const handleChange = (event) =>{
         setMessage(event.target.value)
     }
