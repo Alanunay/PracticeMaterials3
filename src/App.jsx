@@ -4,8 +4,9 @@ import './App.css'
 import { Counter } from './Counter'
 import { LoginCard } from './LoginCard'
 import { UserDashboard } from './UserDashboard'
-import SimpleCounter from './SimpleCounter'
-import { Try } from './Try'
+import {SimpleCounter} from './SimpleCounter'
+//import { Try } from './Try'
+import { PrevStateCounter } from './PrevStateCounter'
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
     <LoginCard/>
     <UserDashboard/>
     <SimpleCounter/>
-    <Try/>
+    {/* <Try/> */}
+    <PrevStateCounter/>
     </>
   )
 }

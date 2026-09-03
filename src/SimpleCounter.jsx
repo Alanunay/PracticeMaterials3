@@ -1,6 +1,7 @@
 
 import {useState} from 'react'
-export default function SimpleCounter() {
+
+export const SimpleCounter =() =>{
 const [count, setCount] = useState(0)
  console.log('Render phase: Component renderiung with count=', count);
 // const handleIncrement = () => {
