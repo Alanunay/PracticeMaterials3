@@ -1,15 +1,21 @@
 
 import './App.css'
-//import { Counter } from './Counter'
+//import MasterPage from './pages/MasterPage'
+import { Counter } from './Counter'
 import { LoginCard } from './LoginCard'
 import { UserDashboard } from './UserDashboard'
+import SimpleCounter from './SimpleCounter'
+import { Try } from './Try'
+
 function App() {
   return (
     <>
-      <h1><strong>My React Practice</strong></h1>
-      {/* <Counter/> */}
-      <LoginCard/>
-      <UserDashboard/>
+    {/* <MasterPage/> */}
+    <Counter/>
+    <LoginCard/>
+    <UserDashboard/>
+    <SimpleCounter/>
+    <Try/>
     </>
   )
 }
